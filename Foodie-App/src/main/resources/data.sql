@@ -1,0 +1,33 @@
+---- Insert a sample user
+INSERT INTO app_user (name, email, password)
+VALUES ('John Doe', 'john.doe@example.com', 'password123');
+--
+---- Insert sample wallet data for the user
+--INSERT INTO wallet (wallet_id, user_id, balance, created_at)
+--VALUES (1, 1, 100.00, NOW());
+--
+---- Insert a sample restaurant
+--INSERT INTO restaurant (name, location)
+--VALUES ('Pizza Place', '123 Main St');
+--
+---- Insert sample items in the menu
+--INSERT INTO menu_item (item_id, restaurant_id, item_name, price, created_at)
+--VALUES
+--(1, 1, 'Margherita Pizza', 10.00, NOW()),
+--(2, 1, 'Pepperoni Pizza', 12.00, NOW());
+--
+---- Insert sample order statuses
+--INSERT INTO order_status (status_id, status_name, created_at)
+--VALUES
+--(1, 'Pending', NOW()),
+--(2, 'Completed', NOW());
+--
+---- Insert a sample order
+--INSERT INTO `order` (order_id, user_id, restaurant_id, status_id, total_amount, created_at)
+--VALUES (1, 1, 1, 1, 22.00, NOW());
+--
+---- Insert sample order items
+--INSERT INTO order_item (order_item_id, order_id, item_id, quantity, price, created_at)
+--VALUES
+--(1, 1, 1, 1, 10.00, NOW()),
+--(2, 1, 2, 1, 12.00, NOW());
